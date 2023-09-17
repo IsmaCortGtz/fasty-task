@@ -1,0 +1,20 @@
+.NothingHere-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.NothingHere-icon {
+  height: 10em;
+  fill: var(--background-color-third);
+}
+
+.NothingHere-title {
+  color: var(--background-color-third);
+  text-align: center;
+  user-select: none;
+  font-size: 3em;
+}

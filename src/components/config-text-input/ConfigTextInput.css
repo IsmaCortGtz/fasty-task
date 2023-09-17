@@ -1,0 +1,51 @@
+
+.ConfigTextInput-list-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ConfigTextInput-input-text {
+  background-color: var(--background-color-secundary);
+  padding: 20px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--card-first-normal-border);
+  border-radius: 0 0 5px 5px;
+}
+
+.ConfigTextInput-input-text:focus {
+  outline: none;
+  border-bottom-color: var(--primary-color);
+}
+
+.ConfigTextInput-text-label {
+  font-weight: bold;
+  font-style: italic;
+  background-color: var(--background-color-secundary);
+  padding: 20px;
+  padding-bottom: 5px;
+  font-size: 0.8em;
+  color: var(--text-color-secundary);
+  border-radius: 5px 5px 0 0;
+}
+
+.ConfigTextInput-button {
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: var(--card-first-normal-border);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ConfigTextInput-button:hover {
+  background-color: var(--card-first-normal-hover);
+}
+
+.ConfigTextInput-button:active {
+  background-color: var(--card-first-normal-background);
+}

@@ -1,0 +1,19 @@
+:root {
+  --background-color: #222222;
+  --background-color-secundary: #2d2d2d;
+  --background-color-third: #494949;
+  --text-color-primary: #dedede;
+  --text-color-secundary: #909090;
+
+  --primary-color: #90caf9;
+  
+  --card-first-normal-background: #30333e;
+  --card-first-normal-border: #313f76;
+  --card-first-normal-hover: #354cac;
+
+  --card-second-normal-background: #4c3131;
+  --card-second-normal-border: #912424;
+
+  --card-third-normal-background: #334c31;
+  --card-third-normal-border: #24891d;
+}

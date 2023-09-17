@@ -1,0 +1,12 @@
+.BottomNav-container {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--background-color-secundary);
+}
+
+.BottomNav-container > * {
+  flex: 1;
+}

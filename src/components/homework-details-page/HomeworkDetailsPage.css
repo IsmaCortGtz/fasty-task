@@ -1,0 +1,65 @@
+.HomeworkDetailsPage-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 2em;
+  flex: 1;
+}
+
+.HomeworkDetailsPage-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeworkDetailsPage-back {
+  height: 3em;
+  padding: 10px;
+  fill: currentColor;
+  cursor: pointer;
+  transition: scale 0.2s;
+}
+
+.HomeworkDetailsPage-back:hover {
+  scale: 1.5;
+}
+
+.HomeworkDetailsPage-homework-subject {
+  padding: 20px;
+  font-weight: bold;
+  border-top: 1px solid #ffffff2a;
+  font-size: 1.3em;
+}
+
+.HomeworkDetailsPage-homework-title {
+  padding: 20px;
+  border-top: 1px solid #ffffff2a;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.HomeworkDetailsPage-homework-deadline-container {
+  padding: 20px;
+  border-top: 1px solid #ffffff2a;
+}
+
+.HomeworkDetailsPage-homework-desc-container {
+  padding: 20px;
+  border-top: 1px solid #ffffff2a;
+}
+
+.HomeworkDetailsPage-homework-section-title {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.1em;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.HomeworkDetailsPage-homework-dates-rows {
+  padding: 5px;
+}
+
+.HomeworkDetailsPage-finished {
+  margin: 20px;
+}

@@ -1,0 +1,12 @@
+.HomeworkPage-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 2em;
+}
+
+.HomeworkPage-cards-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 30px;
+}

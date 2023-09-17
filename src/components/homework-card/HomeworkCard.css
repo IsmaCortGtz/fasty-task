@@ -1,0 +1,42 @@
+.HomeworkCard-container {
+  background-color: var(--card-first-normal-background);
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 20px 15px;
+  border-left: 13px solid var(--card-first-normal-border);
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.HomeworkCard-container.passed {
+  background-color: var(--card-second-normal-background);
+  border-left: 13px solid var(--card-second-normal-border);
+} 
+
+.HomeworkCard-container.finished {
+  background-color: var(--card-third-normal-background);
+  border-left: 13px solid var(--card-third-normal-border);
+} 
+
+.HomeworkCard-subject {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.HomeworkCard-title {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.HomeworkCard-deadline, .HomeworkCard-timeline {
+  font-style: italic;
+  display: flex;
+}
+
+.HomeworkCard-icon {
+  height: 1em;
+  padding-right: 15px;
+  fill: var(--text-color-secundary);
+}

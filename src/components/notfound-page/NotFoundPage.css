@@ -1,0 +1,26 @@
+.NotFoundPage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.NotFoundPage-icon {
+  height: 10em;
+  fill: var(--background-color-third);
+}
+
+.NotFoundPage-message, .NotFoundPage-title {
+  color: var(--background-color-third);
+  text-align: center;
+  user-select: none;
+}
+
+.NotFoundPage-title {
+  font-size: 3em;
+}
+
+.NotFoundPage-message {
+  font-size: 1.5em;
+}

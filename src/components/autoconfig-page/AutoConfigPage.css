@@ -1,0 +1,12 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.AutoConfigPage-icon {
+  animation: rotate 4s infinite linear;
+}
